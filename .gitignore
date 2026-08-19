@@ -1,0 +1,17 @@
+# NUNCA comitar a chave da API
+lambda/config.js
+
+# Dependências
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/

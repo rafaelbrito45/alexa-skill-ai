@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31202424/README.md)
 # 🎙️ AI-Powered Personal Assistant for Alexa
 
 An **Alexa Skill** powered by a large language model (LLM) that holds natural conversations, keeps context, switches personalities on voice command, recognizes you across conversations, and even works as an English teacher.
