@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "assistente pessoal",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        {
+          "name": "PerguntaIntent",
+          "slots": [
+            {
+              "name": "pergunta",
+              "type": "TEXTO_LIVRE"
+            }
+          ],
+          "samples": [
+            "{pergunta}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "TEXTO_LIVRE",
+          "values": [
+            { "name": { "value": "abacaxi" } },
+            { "name": { "value": "qualquer coisa" } },
+            { "name": { "value": "me explique" } },
+            { "name": { "value": "conte sobre" } }
+          ]
+        }
+      ]
+    }
+  }
+}
