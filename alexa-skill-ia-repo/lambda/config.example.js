@@ -1,5 +1,4 @@
-// Copie este arquivo para "config.js" e cole a sua chave da API do Groq.
-// O config.js está no .gitignore e NÃO deve ser enviado ao repositório.
+// Copy this file to "config.js" and paste yout Groq API key.
 module.exports = {
   GROQ_API_KEY: 'gsk_SUA_CHAVE_AQUI',
 };
